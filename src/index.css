@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@theme{
+    --color-primary:#ffc727;
+    --color-dark:#111111;
+
+}
+@layer components {
+    .button-outline{
+        @apply rounded-md
+        border-2 border-primary
+        hover:bg-primary/80
+        hover:text-black
+        duration-500
+        py-2
+        px-6
+        text-primary
+        -tracking-wider
+        cursor-pointer
+    }
+}

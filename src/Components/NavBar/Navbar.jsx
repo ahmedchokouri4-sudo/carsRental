@@ -29,8 +29,8 @@ const NavLinks = [
 const Navbar = ({theme,setTheme}) => {
  
   return (
-    <nav className='shadow-md bg-white dark:bg-dark dark:text-white duration-300 relative z-40' >
-      <div className="container mx-auto">
+    <nav className='shadow-md bg-white dark:bg-dark dark:text-white duration-300 relative z-40 ' >
+      <div className="container mx-auto px-4 ">
         <div className="flex justify-between items-center ">
             <div className='hidden md:block'> 
               <h1 className='text-3xl font-bold font-serif'>Car Rental</h1>

@@ -28,7 +28,7 @@ const CarListData = [
 const CarList = () => {
   return (
     <div className='pb-24 bg-white dark:bg-dark dark:text-white'>
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         {/* heading */}
         <h1 data-aos="fade-up" className='text-3xl sm:text-4xl font-semibold font-serif mb-3'>Lorem, ipsum dolor.</h1>
         <p data-aos="fade-up" className='text-sm pb-10'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat qui quibusdam culpa.</p>

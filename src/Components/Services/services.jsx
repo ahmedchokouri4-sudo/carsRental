@@ -34,7 +34,7 @@ const skillData = [
                 
 const services = () => {
   return (
-    <div className='py-14 dark:bg-black dark:text-white sm:min-h[600px] sm:grid sm:place-items-center'  >
+    <div className='py-14 dark:bg-black dark:text-white sm:min-h[600px] sm:grid sm:place-items-center px-4'  >
       <div className="container">
         <div className='pb-12'>
             <h1

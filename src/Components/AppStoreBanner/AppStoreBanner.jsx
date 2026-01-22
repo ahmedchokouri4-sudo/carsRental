@@ -18,7 +18,7 @@ const bannerImg = {
 
 const AppStoreBanner = () => {
   return (
-    <div className=' container  mx-auto pb-14  flex items-center justify-center'>
+    <div className=' container  mx-auto pb-14  flex items-center justify-center px-4'>
       <div className='text-black py-10 sm:min-h-[400px] sm:grid sm:place-items-center rounded-xl w-full ' 
       style={bannerImg}>
          <div className='space-y-6 max-w-xl mx-auto'>

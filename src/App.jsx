@@ -43,14 +43,37 @@ const App = () => {
 
     <div className='bg-white dark:bg-black dark:text-white '>
       <Navbar theme={theme} setTheme={setTheme} />
-      <Hero theme={theme}/>
-      <About/>
-      <Services/>
-      <CarList/>
-      <Testimonial/>
-      <AppStoreBanner/>
-      <Contact/>
-      <Footer/>
+      <div id="home">
+        <Hero theme={theme}/>
+      </div>
+
+      <div id="about">
+        <About/>
+      </div>
+
+      <div id="services">
+        <Services/>
+      </div>
+
+      <div id="cars">
+        <CarList/>
+      </div>
+
+      <div id="testimonials">
+        <Testimonial/>
+      </div>
+
+      <div id="appstore">
+        <AppStoreBanner/>
+      </div>
+
+      <div id="booking">
+        <Contact/>
+      </div>
+
+      <div id="footer">
+        <Footer/>
+      </div>
  
 
     </div>
